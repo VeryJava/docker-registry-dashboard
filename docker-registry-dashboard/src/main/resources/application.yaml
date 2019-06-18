@@ -1,0 +1,12 @@
+server:
+  port: 13028
+
+spring:
+  freemarker:
+    cache: false
+    settings:
+      template_update_delay: 0
+docker-registry:
+  host: 10.141.211.160
+  port: 5000
+  version: v2
